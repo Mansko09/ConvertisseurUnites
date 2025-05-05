@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My unit converter</h1>
+
+      <input id="inputValue" type="number" placeholder="Enter a number">    
+
+      <select id="conversionType">
+        <option value="milesToKm">miles to km</option>
+        <option value="lbsToKg">lbs to kg</option>
+        <option value="inchesToCm">inches to cm</option>
+      </select>
+
+      <button id="convertBtn" class="button convert">Convert</button>
+
+      <p id="resultBox"></p>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
